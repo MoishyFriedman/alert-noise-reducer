@@ -1,0 +1,599 @@
+[
+  {
+    "id": "evt-0001",
+    "timestamp": "2026-07-09T09:02:00Z",
+    "host": "web-01",
+    "service": "nginx",
+    "severity": "info",
+    "message": "Deploy completed successfully",
+    "tags": [
+      "env:prod"
+    ]
+  },
+  {
+    "id": "evt-0002",
+    "timestamp": "2026-07-09T09:05:00Z",
+    "host": "web-03",
+    "service": "nginx",
+    "severity": "critical",
+    "message": "502 Bad Gateway on /api/checkout",
+    "tags": [
+      "env:prod",
+      "region:us-east-1"
+    ]
+  },
+  {
+    "id": "evt-0003",
+    "timestamp": "2026-07-09T09:05:30Z",
+    "host": "web-03",
+    "service": "nginx",
+    "severity": "critical",
+    "message": "502 Bad Gateway on /api/checkout",
+    "tags": [
+      "env:prod",
+      "region:us-east-1"
+    ]
+  },
+  {
+    "id": "evt-0004",
+    "timestamp": "2026-07-09T09:06:00Z",
+    "host": "web-03",
+    "service": "nginx",
+    "severity": "critical",
+    "message": "502 Bad Gateway on /api/checkout",
+    "tags": [
+      "env:prod",
+      "region:us-east-1"
+    ]
+  },
+  {
+    "id": "evt-0005",
+    "timestamp": "2026-07-09T09:06:30Z",
+    "host": "web-03",
+    "service": "nginx",
+    "severity": "critical",
+    "message": "502 Bad Gateway on /api/checkout",
+    "tags": [
+      "env:prod",
+      "region:us-east-1"
+    ]
+  },
+  {
+    "id": "evt-0006",
+    "timestamp": "2026-07-09T09:07:00Z",
+    "host": "web-03",
+    "service": "nginx",
+    "severity": "critical",
+    "message": "502 Bad Gateway on /api/checkout",
+    "tags": [
+      "env:prod",
+      "region:us-east-1"
+    ]
+  },
+  {
+    "id": "evt-0007",
+    "timestamp": "2026-07-09T09:07:30Z",
+    "host": "web-03",
+    "service": "nginx",
+    "severity": "critical",
+    "message": "502 Bad Gateway on /api/checkout",
+    "tags": [
+      "env:prod",
+      "region:us-east-1"
+    ]
+  },
+  {
+    "id": "evt-0008",
+    "timestamp": "2026-07-09T09:08:00Z",
+    "host": "web-03",
+    "service": "nginx",
+    "severity": "critical",
+    "message": "502 Bad Gateway on /api/checkout",
+    "tags": [
+      "env:prod",
+      "region:us-east-1"
+    ]
+  },
+  {
+    "id": "evt-0009",
+    "timestamp": "2026-07-09T09:08:30Z",
+    "host": "web-03",
+    "service": "nginx",
+    "severity": "critical",
+    "message": "502 Bad Gateway on /api/checkout",
+    "tags": [
+      "env:prod",
+      "region:us-east-1"
+    ]
+  },
+  {
+    "id": "evt-0010",
+    "timestamp": "2026-07-09T09:09:00Z",
+    "host": "worker-02",
+    "service": "cron-jobs",
+    "severity": "warning",
+    "message": "Job 'cleanup-tmp' took longer than expected",
+    "tags": [
+      "env:prod"
+    ]
+  },
+  {
+    "id": "evt-0011",
+    "timestamp": "2026-07-09T09:16:00Z",
+    "host": "web-05",
+    "service": "nginx",
+    "severity": "info",
+    "message": "Certificate renewed",
+    "tags": [
+      "env:prod"
+    ]
+  },
+  {
+    "id": "evt-0012",
+    "timestamp": "2026-07-09T09:20:00Z",
+    "host": "db-01",
+    "service": "postgres",
+    "severity": "warning",
+    "message": "Query latency p95 > 2s on orders table",
+    "tags": [
+      "env:prod",
+      "region:us-east-1"
+    ]
+  },
+  {
+    "id": "evt-0013",
+    "timestamp": "2026-07-09T09:21:30Z",
+    "host": "db-01",
+    "service": "postgres",
+    "severity": "warning",
+    "message": "Query latency p95 > 2s on orders table",
+    "tags": [
+      "env:prod",
+      "region:us-east-1"
+    ]
+  },
+  {
+    "id": "evt-0014",
+    "timestamp": "2026-07-09T09:23:00Z",
+    "host": "db-01",
+    "service": "postgres",
+    "severity": "warning",
+    "message": "Query latency p95 > 2s on orders table",
+    "tags": [
+      "env:prod",
+      "region:us-east-1"
+    ]
+  },
+  {
+    "id": "evt-0015",
+    "timestamp": "2026-07-09T09:23:00Z",
+    "host": "api-gw",
+    "service": "kong",
+    "severity": "warning",
+    "message": "Rate limit approaching for client X",
+    "tags": [
+      "env:prod"
+    ]
+  },
+  {
+    "id": "evt-0016",
+    "timestamp": "2026-07-09T09:24:30Z",
+    "host": "db-01",
+    "service": "postgres",
+    "severity": "warning",
+    "message": "Query latency p95 > 2s on orders table",
+    "tags": [
+      "env:prod",
+      "region:us-east-1"
+    ]
+  },
+  {
+    "id": "evt-0017",
+    "timestamp": "2026-07-09T09:26:00Z",
+    "host": "db-01",
+    "service": "postgres",
+    "severity": "warning",
+    "message": "Query latency p95 > 2s on orders table",
+    "tags": [
+      "env:prod",
+      "region:us-east-1"
+    ]
+  },
+  {
+    "id": "evt-0018",
+    "timestamp": "2026-07-09T09:27:30Z",
+    "host": "db-01",
+    "service": "postgres",
+    "severity": "warning",
+    "message": "Query latency p95 > 2s on orders table",
+    "tags": [
+      "env:prod",
+      "region:us-east-1"
+    ]
+  },
+  {
+    "id": "evt-0019",
+    "timestamp": "2026-07-09T09:30:00Z",
+    "host": "db-02",
+    "service": "mysql",
+    "severity": "info",
+    "message": "Backup completed",
+    "tags": [
+      "env:prod"
+    ]
+  },
+  {
+    "id": "evt-0020",
+    "timestamp": "2026-07-09T09:37:00Z",
+    "host": "worker-04",
+    "service": "notification-svc",
+    "severity": "warning",
+    "message": "Retry queue depth elevated",
+    "tags": [
+      "env:prod"
+    ]
+  },
+  {
+    "id": "evt-0021",
+    "timestamp": "2026-07-09T09:40:00Z",
+    "host": "pay-01",
+    "service": "payment-api",
+    "severity": "critical",
+    "message": "Timeout calling downstream fraud-check service",
+    "tags": [
+      "env:prod",
+      "region:us-east-1",
+      "dependency:fraud-check"
+    ]
+  },
+  {
+    "id": "evt-0022",
+    "timestamp": "2026-07-09T09:40:25Z",
+    "host": "pay-02",
+    "service": "payment-api",
+    "severity": "critical",
+    "message": "Timeout calling downstream fraud-check service",
+    "tags": [
+      "env:prod",
+      "region:us-east-1",
+      "dependency:fraud-check"
+    ]
+  },
+  {
+    "id": "evt-0023",
+    "timestamp": "2026-07-09T09:40:50Z",
+    "host": "pay-03",
+    "service": "payment-api",
+    "severity": "critical",
+    "message": "Timeout calling downstream fraud-check service",
+    "tags": [
+      "env:prod",
+      "region:us-east-1",
+      "dependency:fraud-check"
+    ]
+  },
+  {
+    "id": "evt-0024",
+    "timestamp": "2026-07-09T09:41:00Z",
+    "host": "fraud-01",
+    "service": "fraud-check",
+    "severity": "critical",
+    "message": "OutOfMemoryError in request handler",
+    "tags": [
+      "env:prod",
+      "region:us-east-1"
+    ]
+  },
+  {
+    "id": "evt-0025",
+    "timestamp": "2026-07-09T09:41:15Z",
+    "host": "pay-04",
+    "service": "payment-api",
+    "severity": "critical",
+    "message": "Timeout calling downstream fraud-check service",
+    "tags": [
+      "env:prod",
+      "region:us-east-1",
+      "dependency:fraud-check"
+    ]
+  },
+  {
+    "id": "evt-0026",
+    "timestamp": "2026-07-09T09:41:40Z",
+    "host": "pay-01",
+    "service": "payment-api",
+    "severity": "critical",
+    "message": "Timeout calling downstream fraud-check service",
+    "tags": [
+      "env:prod",
+      "region:us-east-1",
+      "dependency:fraud-check"
+    ]
+  },
+  {
+    "id": "evt-0027",
+    "timestamp": "2026-07-09T09:41:40Z",
+    "host": "fraud-01",
+    "service": "fraud-check",
+    "severity": "critical",
+    "message": "OutOfMemoryError in request handler",
+    "tags": [
+      "env:prod",
+      "region:us-east-1"
+    ]
+  },
+  {
+    "id": "evt-0028",
+    "timestamp": "2026-07-09T09:42:05Z",
+    "host": "pay-02",
+    "service": "payment-api",
+    "severity": "critical",
+    "message": "Timeout calling downstream fraud-check service",
+    "tags": [
+      "env:prod",
+      "region:us-east-1",
+      "dependency:fraud-check"
+    ]
+  },
+  {
+    "id": "evt-0029",
+    "timestamp": "2026-07-09T09:42:20Z",
+    "host": "fraud-01",
+    "service": "fraud-check",
+    "severity": "critical",
+    "message": "OutOfMemoryError in request handler",
+    "tags": [
+      "env:prod",
+      "region:us-east-1"
+    ]
+  },
+  {
+    "id": "evt-0030",
+    "timestamp": "2026-07-09T09:42:30Z",
+    "host": "pay-03",
+    "service": "payment-api",
+    "severity": "critical",
+    "message": "Timeout calling downstream fraud-check service",
+    "tags": [
+      "env:prod",
+      "region:us-east-1",
+      "dependency:fraud-check"
+    ]
+  },
+  {
+    "id": "evt-0031",
+    "timestamp": "2026-07-09T09:42:55Z",
+    "host": "pay-04",
+    "service": "payment-api",
+    "severity": "critical",
+    "message": "Timeout calling downstream fraud-check service",
+    "tags": [
+      "env:prod",
+      "region:us-east-1",
+      "dependency:fraud-check"
+    ]
+  },
+  {
+    "id": "evt-0032",
+    "timestamp": "2026-07-09T09:43:00Z",
+    "host": "fraud-01",
+    "service": "fraud-check",
+    "severity": "critical",
+    "message": "OutOfMemoryError in request handler",
+    "tags": [
+      "env:prod",
+      "region:us-east-1"
+    ]
+  },
+  {
+    "id": "evt-0033",
+    "timestamp": "2026-07-09T09:43:20Z",
+    "host": "pay-01",
+    "service": "payment-api",
+    "severity": "critical",
+    "message": "Timeout calling downstream fraud-check service",
+    "tags": [
+      "env:prod",
+      "region:us-east-1",
+      "dependency:fraud-check"
+    ]
+  },
+  {
+    "id": "evt-0034",
+    "timestamp": "2026-07-09T09:43:40Z",
+    "host": "fraud-01",
+    "service": "fraud-check",
+    "severity": "critical",
+    "message": "OutOfMemoryError in request handler",
+    "tags": [
+      "env:prod",
+      "region:us-east-1"
+    ]
+  },
+  {
+    "id": "evt-0035",
+    "timestamp": "2026-07-09T09:43:45Z",
+    "host": "pay-02",
+    "service": "payment-api",
+    "severity": "critical",
+    "message": "Timeout calling downstream fraud-check service",
+    "tags": [
+      "env:prod",
+      "region:us-east-1",
+      "dependency:fraud-check"
+    ]
+  },
+  {
+    "id": "evt-0036",
+    "timestamp": "2026-07-09T09:44:00Z",
+    "host": "lb-01",
+    "service": "haproxy",
+    "severity": "info",
+    "message": "Config reload",
+    "tags": [
+      "env:prod"
+    ]
+  },
+  {
+    "id": "evt-0037",
+    "timestamp": "2026-07-09T09:44:10Z",
+    "host": "pay-03",
+    "service": "payment-api",
+    "severity": "critical",
+    "message": "Timeout calling downstream fraud-check service",
+    "tags": [
+      "env:prod",
+      "region:us-east-1",
+      "dependency:fraud-check"
+    ]
+  },
+  {
+    "id": "evt-0038",
+    "timestamp": "2026-07-09T09:44:35Z",
+    "host": "pay-04",
+    "service": "payment-api",
+    "severity": "critical",
+    "message": "Timeout calling downstream fraud-check service",
+    "tags": [
+      "env:prod",
+      "region:us-east-1",
+      "dependency:fraud-check"
+    ]
+  },
+  {
+    "id": "evt-0039",
+    "timestamp": "2026-07-09T09:51:00Z",
+    "host": "auth-01",
+    "service": "auth-svc",
+    "severity": "warning",
+    "message": "Elevated 401 rate from single IP",
+    "tags": [
+      "env:prod"
+    ]
+  },
+  {
+    "id": "evt-0040",
+    "timestamp": "2026-07-09T09:58:00Z",
+    "host": "web-02",
+    "service": "nginx",
+    "severity": "info",
+    "message": "Autoscale event: +1 instance",
+    "tags": [
+      "env:prod"
+    ]
+  },
+  {
+    "id": "evt-0041",
+    "timestamp": "2026-07-09T10:05:00Z",
+    "host": "db-03",
+    "service": "postgres",
+    "severity": "warning",
+    "message": "Disk usage at 70%",
+    "tags": [
+      "env:prod"
+    ]
+  },
+  {
+    "id": "evt-0042",
+    "timestamp": "2026-07-09T10:10:00Z",
+    "host": "cache-02",
+    "service": "redis",
+    "severity": "warning",
+    "message": "Memory usage above 85% threshold",
+    "tags": [
+      "env:prod",
+      "region:eu-west-1"
+    ]
+  },
+  {
+    "id": "evt-0043",
+    "timestamp": "2026-07-09T10:12:00Z",
+    "host": "worker-01",
+    "service": "email-svc",
+    "severity": "warning",
+    "message": "SMTP relay latency spike",
+    "tags": [
+      "env:prod"
+    ]
+  },
+  {
+    "id": "evt-0044",
+    "timestamp": "2026-07-09T10:15:00Z",
+    "host": "cache-02",
+    "service": "redis",
+    "severity": "warning",
+    "message": "Memory usage above 85% threshold",
+    "tags": [
+      "env:prod",
+      "region:eu-west-1"
+    ]
+  },
+  {
+    "id": "evt-0045",
+    "timestamp": "2026-07-09T10:19:00Z",
+    "host": "cache-01",
+    "service": "redis",
+    "severity": "info",
+    "message": "Failover to replica completed",
+    "tags": [
+      "env:prod"
+    ]
+  },
+  {
+    "id": "evt-0046",
+    "timestamp": "2026-07-09T10:20:00Z",
+    "host": "cache-02",
+    "service": "redis",
+    "severity": "warning",
+    "message": "Memory usage above 85% threshold",
+    "tags": [
+      "env:prod",
+      "region:eu-west-1"
+    ]
+  },
+  {
+    "id": "evt-0047",
+    "timestamp": "2026-07-09T10:25:00Z",
+    "host": "cache-02",
+    "service": "redis",
+    "severity": "warning",
+    "message": "Memory usage above 85% threshold",
+    "tags": [
+      "env:prod",
+      "region:eu-west-1"
+    ]
+  },
+  {
+    "id": "evt-0048",
+    "timestamp": "2026-07-09T10:26:00Z",
+    "host": "search-01",
+    "service": "elasticsearch",
+    "severity": "warning",
+    "message": "Shard relocation in progress",
+    "tags": [
+      "env:prod"
+    ]
+  },
+  {
+    "id": "evt-0049",
+    "timestamp": "2026-07-09T10:33:00Z",
+    "host": "web-04",
+    "service": "nginx",
+    "severity": "warning",
+    "message": "Slow response on /health",
+    "tags": [
+      "env:prod"
+    ]
+  },
+  {
+    "id": "evt-0050",
+    "timestamp": "2026-07-09T10:40:00Z",
+    "host": "billing-01",
+    "service": "billing-svc",
+    "severity": "info",
+    "message": "Nightly reconciliation job started",
+    "tags": [
+      "env:prod"
+    ]
+  }
+]

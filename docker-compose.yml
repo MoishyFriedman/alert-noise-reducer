@@ -1,0 +1,37 @@
+# Reviewer path: `docker compose up --build` — everything, one command.
+# Local dev path: `docker compose up -d db`, then run backend/frontend natively (see README).
+services:
+  db:
+    image: postgres:16
+    environment:
+      POSTGRES_USER: alertnoise
+      POSTGRES_PASSWORD: alertnoise_dev
+      POSTGRES_DB: alertnoise
+    ports: ["5432:5432"]
+    volumes: ["pgdata:/var/lib/postgresql/data"]
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U alertnoise"]
+      interval: 3s
+      retries: 10
+
+  backend:
+    build: ./backend
+    environment:
+      DATABASE_URL: postgresql+psycopg://alertnoise:alertnoise_dev@db:5432/alertnoise
+      SEED_FILE: /app/data/sample_alerts.json
+    volumes: ["./data:/app/data:ro"]
+    depends_on:
+      db:
+        condition: service_healthy
+    ports: ["8000:8000"]
+
+  frontend:
+    build:
+      context: ./frontend
+      args:
+        VITE_API_URL: "http://localhost:8000"
+    depends_on: [backend]
+    ports: ["5173:80"]
+
+volumes:
+  pgdata:
